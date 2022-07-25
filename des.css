@@ -1,0 +1,183 @@
+.homebody{
+    background: linear-gradient(to bottom, blue, red 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.homeh1{
+    background-color: greenyellow;
+    text-align: center;
+    opacity: .7;
+}
+.homep{
+    background-color: rgb(240, 240, 92);
+    text-align: justify;
+    margin-left: 15%;
+    width: 80%;
+    height: 100px;
+    position: relative;
+    bottom: 50px;
+    opacity: .8;
+    padding: 10px;
+    border-radius: 5px;
+}
+.homebutton{
+    position: relative;
+    top: 30px;
+    left: 100px;
+    background-color: greenyellow;
+    font-size: 40px;
+    width: 80px;
+    padding-top: 10px;
+    opacity: .8;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.homeh1:hover{background-color: aqua;}
+.homep:hover{background-color: aquamarine;}
+.homebutton:hover{background-color: aqua;}
+
+
+
+
+.userbody{
+    background: linear-gradient(to right, lightgreen, rgb(248, 192, 88) 100%);
+}
+.userh1{
+    background-color: peachpuff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.userh2{
+    background-color: peachpuff;
+    text-align: center;
+    margin-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.userh3{
+    background-color: peachpuff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.userh4{
+    margin-top: 150px;
+}
+.userh5{
+    margin-top: 550px;
+}
+.userimg{
+    width: 250px;
+    height: 250px;
+    float: right;
+    border: 5px solid white
+}
+.p1{
+    text-align: center;
+    float: left;
+    background-color: peachpuff;
+    margin-left: 25%;
+    margin-right: 40px;
+    vertical-align: middle;
+    width: 25%;
+    height: .3in;
+    padding-top: .1in;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p2{
+    text-align: center;
+    float: left;
+    background-color: peachpuff;
+    margin-left: 25px;
+    margin-right: 40px;
+    vertical-align: middle;
+    width: 25%;
+    height: .3in;
+    padding-top: .1in;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.userbutton{
+    margin-left: .2in;
+    margin-top: .2in;
+    background-color: greenyellow;
+    padding: 10px;
+    width: 80px;
+    padding-top: 10px;
+    opacity: .8;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.userh1:hover{background-color: aquamarine;}
+.userh2:hover{background-color: aquamarine;}
+.userh3:hover{background-color: aquamarine;}
+.p1:hover{background-color: aquamarine;}
+.p2:hover{background-color: aquamarine;}
+.userbutton:hover{background-color: aquamarine;}
+
+
+.fambody{
+    background: linear-gradient(to right, blue, pink 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    width: 300px;
+    height: 650px;
+    margin: 10px;
+    background-color: aquamarine;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+}
+.famh3{
+    text-align: center;
+}
+.famimg{
+    width: 100%;
+    height: 60%;
+}
+.fambutton1{
+    margin-top: .10in;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 5px;
+}
+.fambutton2{
+    margin-top: .85in;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 5px;
+}
+.fambutton3{
+    margin-top: .30in;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 5px;
+}
+.fambutton4{
+    margin-top: .30in;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 5px;
+}
+.famh1{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.box:hover{background-color: cyan;}
+.famh1:hover{background-color: greenyellow;}
+.fambutton1:hover{background-color: blue; color: white;}
+.fambutton2:hover{background-color: blue; color: white;}
+.fambutton3:hover{background-color: blue; color: white;}
+.fambutton4:hover{background-color: blue; color: white;}
